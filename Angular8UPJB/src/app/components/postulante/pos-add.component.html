@@ -1,0 +1,37 @@
+<mat-card>
+    <mat-card-header>
+        <mat-card-title>Registrar</mat-card-title>
+        <mat-card-subtitle> Asistencia</mat-card-subtitle>
+        <mat-icon style="font-size: 50px;" aria-hidden="false" aria-label="Registrar Asistencia">person_add</mat-icon>
+    </mat-card-header>
+    <mat-card-content>
+        <div fxLayout="row" fxLayoutAlign="center center" *ngIf="cargando">
+            <mat-progress-spinner class="example-margin" color="primary" mode="indeterminate">
+            </mat-progress-spinner>
+        </div>
+        <div class="mat-elevation-z8 basic-container">
+            <form [formGroup]="formAgregarRegistro">
+                <!-- Datos del cliente -->
+                <mat-grid-list cols="2" rowHeight="100px" gutterSize="50px">
+                    <mat-grid-tile>
+                        <mat-form-field>
+                            <input matInput placeholder="numero" type="text" formControlName="numero" />
+
+                        </mat-form-field>
+                    </mat-grid-tile>
+
+
+                </mat-grid-list>
+            </form>
+
+
+
+            <div fxLayout="row" fxLayoutAlign="start center">
+                <div class="button">
+                    <button mat-raised-button [disabled]="!formAgregarRegistro.valid" (click)="ResgistrarAsistencia()" color="primary" type="submit">Guardar</button>
+                </div>
+
+            </div>
+        </div>
+    </mat-card-content>
+</mat-card>

@@ -1,0 +1,92 @@
+2020-09-13 12:19:41.356 -05:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'Proyecto.Data.IDCliente' while attempting to activate 'Proyecto.Controllers.ClientesController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2020-09-13 12:20:11.167 -05:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'Proyecto.Data.IDCliente' while attempting to activate 'Proyecto.Controllers.ClientesController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2020-09-13 12:20:30.449 -05:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'Proyecto.Data.IDCliente' while attempting to activate 'Proyecto.Controllers.ClientesController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2020-09-13 19:13:01.234 -05:00 [ERR] Login: IDX12401: Expires: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' must be after NotBefore: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+2020-09-13 19:13:44.238 -05:00 [ERR] Login: IDX12401: Expires: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' must be after NotBefore: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+2020-09-13 19:14:04.155 -05:00 [ERR] Login: IDX12401: Expires: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' must be after NotBefore: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+2020-09-13 19:14:52.287 -05:00 [ERR] Login: IDX12401: Expires: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' must be after NotBefore: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+2020-09-13 19:15:52.824 -05:00 [ERR] Login: IDX12401: Expires: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' must be after NotBefore: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+2020-09-13 19:16:33.796 -05:00 [ERR] Login: IDX12401: Expires: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' must be after NotBefore: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+2020-09-13 19:19:25.941 -05:00 [ERR] Login: IDX12401: Expires: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' must be after NotBefore: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+2020-09-13 19:19:43.311 -05:00 [ERR] Login: IDX12401: Expires: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' must be after NotBefore: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+2020-09-13 19:19:48.009 -05:00 [ERR] Login: IDX12401: Expires: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' must be after NotBefore: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+2020-09-13 19:22:54.495 -05:00 [ERR] Login: IDX12401: Expires: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' must be after NotBefore: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+2020-09-13 20:02:47.922 -05:00 [ERR] Login: IDX12401: Expires: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' must be after NotBefore: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+2020-09-13 21:35:34.649 -05:00 [ERR] Login: IDX12401: Expires: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' must be after NotBefore: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+2020-09-13 21:36:10.190 -05:00 [ERR] Login: IDX12401: Expires: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' must be after NotBefore: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+2020-09-13 21:36:38.415 -05:00 [ERR] Login: IDX12401: Expires: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' must be after NotBefore: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+2020-09-13 21:36:51.702 -05:00 [ERR] Login: IDX12401: Expires: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' must be after NotBefore: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+2020-09-13 21:37:07.023 -05:00 [ERR] Login: IDX12401: Expires: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' must be after NotBefore: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+2020-09-13 21:37:56.371 -05:00 [ERR] Login: IDX12401: Expires: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' must be after NotBefore: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+2020-09-13 21:40:21.942 -05:00 [ERR] Login: IDX12401: Expires: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' must be after NotBefore: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+2020-09-13 21:52:59.680 -05:00 [ERR] Login: IDX12401: Expires: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' must be after NotBefore: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+2020-09-13 21:55:11.941 -05:00 [ERR] Login: IDX12401: Expires: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' must be after NotBefore: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+2020-09-13 21:57:00.547 -05:00 [ERR] Login: IDX12401: Expires: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' must be after NotBefore: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+2020-09-13 22:01:50.913 -05:00 [ERR] Login: IDX12401: Expires: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' must be after NotBefore: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+2020-09-13 22:03:40.085 -05:00 [ERR] Login: IDX12401: Expires: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' must be after NotBefore: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+2020-09-13 22:05:21.463 -05:00 [ERR] Login: IDX12401: Expires: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' must be after NotBefore: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+2020-09-13 22:07:02.650 -05:00 [ERR] Login: IDX12401: Expires: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' must be after NotBefore: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+2020-09-13 22:10:04.001 -05:00 [ERR] Login: IDX12401: Expires: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' must be after NotBefore: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+2020-09-13 22:10:32.026 -05:00 [ERR] Login: IDX12401: Expires: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' must be after NotBefore: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+2020-09-13 22:11:30.036 -05:00 [ERR] Login: IDX12401: Expires: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' must be after NotBefore: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+2020-09-13 22:11:39.679 -05:00 [ERR] Login: IDX12401: Expires: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' must be after NotBefore: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+2020-09-13 22:49:08.759 -05:00 [ERR] An unhandled exception has occurred while executing the request.
+System.ArgumentNullException: Value cannot be null. (Parameter 'logger')
+   at Microsoft.Extensions.Logging.LoggerExtensions.Log(ILogger logger, LogLevel logLevel, EventId eventId, Exception exception, String message, Object[] args)
+   at Microsoft.Extensions.Logging.LoggerExtensions.LogError(ILogger logger, Exception exception, String message, Object[] args)
+   at Proyecto.Controllers.ClientesController.RegistrarCliente(MCliente obj) in C:\Trabajos\vb2019\NetCore\Web-Api\Proyecto\Controllers\ClientesController.cs:line 48
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
